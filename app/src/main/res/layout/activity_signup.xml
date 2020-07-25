@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_26"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_16"
+        android:layout_marginTop="@dimen/size_32"
+        android:layout_marginEnd="@dimen/size_16"
+        android:background="@drawable/bg_down"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="@dimen/size_15"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/size_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword_signup"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_22"
+        android:background="@drawable/bg_down"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="@dimen/size_15"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/size_15"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress_signup"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress_signup" />
+
+    <TextView
+        android:id="@+id/already_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/existing_account"
+        android:textColor="@color/letterH"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword_signup" />
+
+
+    <TextView
+        android:id="@+id/facebookBtn"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_bg3"
+        android:gravity="center"
+        android:text="@string/icon_facebook"
+        android:textColor="@color/letterP"
+        android:textSize="@dimen/font_22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/twitterBtn" />
+
+    <TextView
+        android:id="@+id/twitterBtn"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_bg1"
+        android:gravity="center"
+        android:text="@string/icon_twitter"
+        android:textColor="@color/colorSpinnerText"
+        android:textSize="@dimen/font_22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/googleBtn"
+        app:layout_constraintRight_toLeftOf="@id/facebookBtn" />
+
+    <TextView
+        android:id="@+id/googleBtn"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_bg2"
+        android:gravity="center"
+        android:text="@string/icon_google"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/twitterBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        app:layout_constraintBottom_toTopOf="@id/viewEnd"
+        android:backgroundTintMode="add"
+        android:id="@+id/button_signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/sign_up"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword_signup"
+        app:layout_constraintStart_toStartOf="@+id/already_have_account" />
+    <View
+        android:id="@+id/view_start"
+        app:layout_constraintBottom_toTopOf="@id/twitterBtn"
+        android:background="@color/colorBody"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_marginBottom="@dimen/size_24"
+        android:layout_width="@dimen/size_120"
+        android:layout_height="@dimen/size_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_16"
+        android:layout_marginLeft="@dimen/size_16"
+        android:text="Or sign up with "
+        app:layout_constraintLeft_toRightOf="@id/view_start"
+        app:layout_constraintBottom_toTopOf="@id/twitterBtn"/>
+    <View
+        android:id="@+id/viewEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/twitterBtn"
+        android:background="@color/colorBody"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_marginBottom="@dimen/size_24"
+        android:layout_width="@dimen/size_120"
+        android:layout_height="@dimen/size_1"/>
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/progress_bar_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:padding="@dimen/size_16"-->
+    <!--        android:text="@string/register_text"-->
+    <!--        android:textSize="@dimen/font_12"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/twitterBtn"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        android:layout_marginTop="@dimen/size_40"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

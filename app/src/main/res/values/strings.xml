@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PodPlayer</string>
+    <string name="search_hint">Enter podcast name</string>
+    <string name="search">Search</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="ok_button">OK</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="episode_notification_title">New Episodes</string>
+    <string name="episode_notification_text">%1$d new episode(s) for %2$s</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="get_started">Get started</string>
+    <string name="title_activity_pod_player">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_item">Home</string>
+    <string name="about_app">About</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="forgot">Forgot Password</string>
+
+
+    <string name="icon_facebook">&#xe9c5;</string>
+    <string name="icon_twitter">&#xebdf;</string>
+    <string name="icon_google">&#xea29;</string>
+
+    <string name="login_label">Login</string>
+    <string name="register_label">Register</string>
+    <string name="forgot_password_label">Forgot password?</string>
+    <string name="recover_label">Recover Password</string>
+    <string name="reset_password_label">Reset Password</string>
+
+    <string name="btn_facebook">Facebook</string>
+    <string name="btn_twitter">Twitter</string>
+    <string name="btn_google">Google</string>
+    <string name="btn_email">Email</string>
+
+    <string name="register_text">Don\'t have an account? Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="create_account">Create Account</string>
+    <string name="existing_account">Already have an Account? Sign In</string>
+    <string name="no_account">Don\'t have Account? Sign Up</string>
+    <string name="skip_btn_text">Skip</string>
+    <string name="previous_btn_text">Previous</string>
+    <string name="next_btn_text">Next</string>
+
+    <string name="first_title">Sample First Label</string>
+    <string name="second_title">Sample Second Label</string>
+    <string name="third_title">Enjoy Podcast from any Topic </string>
+
+    <string name="first_text">This is a example of the first text</string>
+    <string name="second_text">This is a example of the second text</string>
+    <string name="third_text">This is a example of the third text</string>
+
+    <string name="facebook_app_id">281703986265914</string>
+    <string name="fb_login_protocol_scheme">fb281703986265914</string>
+
+
+    <string name="login">Login</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="register">Sign up</string>
+
+    <string name="terms">By using this app you agree with our terms and policies</string>
+    <string name="sign_up">Signup</string>
+
+</resources>

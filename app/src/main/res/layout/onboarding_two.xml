@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/size_20"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/btn_skip"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/skip_btn_text"
+        android:textSize="@dimen/font_16"
+        android:layout_gravity="end"
+        android:paddingEnd="@dimen/size_16"
+        android:paddingStart="@dimen/size_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView android:id="@+id/section_image"
+        android:src="@drawable/on_three"
+        android:layout_weight="50"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/section_title"
+        android:text="@string/second_title"
+        android:gravity="center"
+        android:textAppearance="@style/H4TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textSize="@dimen/font_24"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <TextView
+        android:id="@+id/section_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:text="@string/second_text"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_16"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140501612872",
+    "firebase_url": "https://podplayer-1ccb2.firebaseio.com",
+    "project_id": "podplayer-1ccb2",
+    "storage_bucket": "podplayer-1ccb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140501612872:android:bda1ef35f926b7b5f21b7d",
+        "android_client_info": {
+          "package_name": "com.example.podplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140501612872-7rcumd3kga7p1outgagpfuj20t5f9a8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjA7UrbnA7R_L82-c4NdX-d_m0yePBsDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140501612872-7rcumd3kga7p1outgagpfuj20t5f9a8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

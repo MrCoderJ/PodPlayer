@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/letterK</color>
+    <color name="colorPrimaryDark">@color/letterH</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000</color>
+
+    <!--color name="colorBody">#86939e</color-->
+    <color name="colorBody">#eceeff</color>
+    <!--color name="colorBody">#ffffff</color-->
+    <color name="colorLabel">#008577</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="redColor">#f66</color>
+    <color name="greenColor">#7e7</color>
+    <color name="colorGray">#999</color>
+    <color name="colorSpinnerText">#2196F3</color>
+    <color name="colorOffWhite">#F5F8F8</color>
+    <color name="colorBlack">#000f0f</color>
+
+
+
+    <color name="letterA">#2ecc71</color>
+    <color name="letterB">#3498db</color>
+    <color name="letterC">#9b59b6</color>
+    <color name="letterD">#34495e</color>
+    <color name="letterE">#16a085</color>
+    <color name="letterF">#27ae60</color>
+    <color name="letterG">#2980b9</color>
+    <color name="letterH">#2c3e50</color>
+    <color name="letterI">#f1c40f</color>
+    <color name="letterJ">#e67e22</color>
+    <color name="letterK">#e74c3c</color>
+    <color name="letterL">#95a5a6</color>
+    <color name="letterM">#f39c12</color>
+    <color name="letterN">#ebcb15</color>
+    <color name="letterO">#069</color>
+    <color name="letterP">#06c</color>
+    <color name="letterQ">#f06292</color>
+    <color name="letterR">#090</color>
+    <color name="letterS">#093</color>
+    <color name="letterT">#096</color>
+    <color name="letterU">#099</color>
+    <color name="letterV">#09c</color>
+    <color name="letterW">#09f</color>
+    <color name="letterX">#0c0</color>
+</resources>

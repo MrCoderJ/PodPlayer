@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/section_image"
+        android:src="@drawable/on_last"
+        android:layout_weight="60"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:text="@string/get_started"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_banner"
+        android:layout_width="@dimen/size_200"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_16"
+        android:textStyle="bold"
+        android:padding="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_16"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_bg"
+        android:layout_width="@dimen/size_200"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_14"
+        android:padding="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_20"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/terms"
+        android:text="@string/terms"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textSize="@dimen/font_14"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+</LinearLayout>
