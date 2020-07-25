@@ -9,4 +9,3 @@ A Podcast playing app with the following Features
 * Room database
 * Coroutine
 * MVVM
-* 
